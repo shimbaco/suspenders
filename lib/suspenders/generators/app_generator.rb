@@ -67,8 +67,8 @@ module Suspenders
     def create_suspenders_views
       say 'Creating suspenders views'
       build :create_partials_directory
-      build :create_shared_flashes
-      build :create_shared_javascripts
+      build :create_flashes_partial
+      build :create_javascripts_partial
       build :create_application_layout
     end
 

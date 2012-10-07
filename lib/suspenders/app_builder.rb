@@ -40,11 +40,11 @@ module Suspenders
       empty_directory 'app/views/application'
     end
 
-    def create_shared_flashes
+    def create_flashes_partial
       copy_file '_flashes.html.erb', 'app/views/application/_flashes.html.erb'
     end
 
-    def create_shared_javascripts
+    def create_javascripts_partial
       copy_file '_javascript.html.erb', 'app/views/application/_javascript.html.erb'
     end
 
