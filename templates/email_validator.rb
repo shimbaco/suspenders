@@ -26,10 +26,6 @@ class EmailValidator < ActiveModel::EachValidator
   end
 
   def add_error
-    if message = options[:message]
-      @record.errors[@attribute] << message
-    else
-      @record.errors.add(@attribute, :invalid)
-    end
+    @record.errors[@attribute] << (options[:message] || 'is not an email')
   end
 end
