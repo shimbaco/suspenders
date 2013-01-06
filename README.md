@@ -21,43 +21,16 @@ $ suspenders projectname
 上記コマンドを実行すると `projectname` という名前の Rails 3.2 なアプリケーションが生成されます。
 
 
-Gemfile
--------
+## やっていること
 
-To see the latest and greatest gems, look at Suspenders'
-[template/Gemfile_additions](/thoughtbot/suspenders/blob/master/templates/Gemfile_additions),
-which will be appended to the default generated projectname/Gemfile.
-
-It includes application gems like:
-
-* [Airbrake](/airbrake/airbrake) for exception notification
-* [Bourbon](/thoughtbot/bourbon) for Sass mixins
-* [Clearance](/thoughtbot/clearance) for authentication
-* [Flutie](/thoughtbot/flutie) for default CSS styles
-* [Formtastic](/justinfrench/formtastic) for form markup and style
-* [Paperclip](/thoughtbot/paperclip) for file uploads
-
-And testing gems like:
-
-* [Bourne](/thoughtbot/bourne) and [Mocha](/freerange/mocha) for stubbing and
-  spying
-* [Capybara](/jnicklas/capybara) and
-  [Capybara Webkit](/thoughtbot/capybara-webkit) for integration testing
-* [Factory Girl](/thoughtbot/factory_girl) for test data
-* [RSpec](https://github.com/rspec/rspec) for unit testing
-* [Shoulda Matchers](/thoughtbot/shoulda-matchers) for common RSpec matchers
-* [Timecop](/jtrupiano/timecop) for testing time
-
-Other goodies
--------------
-
-Suspenders also comes with:
-
+* Gemfileに標準でインストールしたいgemsを追加
+  * インストール内容は[template/Gemfile_additions](/bojovs/suspenders/blob/master/templates/Gemfile_additions)を見てください。
 * Override recipient emails in staging environment.
 * Rails' flashes set up and in application layout.
 * A few nice time formats set up for localization.
 * [Heroku-recommended asset pipeline
   settings](https://devcenter.heroku.com/articles/rails3x-asset-pipeline-cedar/).
+
 
 Heroku
 ------
