@@ -1,3 +1,8 @@
+1.1.5.1 (January 6, 2013)
+
+* Forkしました。
+* Cucumberのテストコードを削除しちゃいました。
+
 1.1.5 (October 22, 2012)
 
 * Ignore `.env`.
