@@ -23,7 +23,7 @@ $ suspenders projectname
 
 ## やっていること
 
-* Gemfileに標準でインストールしたいgemsを追加
+* 標準でインストールしたいgemsをGemfileに追加
   * インストール内容は[template/Gemfile_additions](/bojovs/suspenders/blob/master/templates/Gemfile_additions)を見てください。
 * Override recipient emails in staging environment.
 * Rails' flashes set up and in application layout.
