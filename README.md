@@ -1,22 +1,25 @@
 # Suspenders (私家版)
 
-Suspenders is the base Rails application used at [thoughtbot](http://thoughtbot.com/community).
+[thoughtbot](http://thoughtbot.com/community)が公開している
+[Suspenders](https://github.com/thoughtbot/suspenders)をForkして自分用にカスタマイズしています。
 
-  ![Suspenders boy](http://media.tumblr.com/1TEAMALpseh5xzf0Jt6bcwSMo1_400.png)
 
-Installation
-------------
+## インストール方法
 
-First install the suspenders gem:
+```
+$ git clone git@github.com:bojovs/suspenders.git
+$ gem install suspenders-1.1.5.gem
+```
 
-    gem install suspenders
 
-Then run:
+## 使い方
 
-    suspenders projectname
+```
+$ suspenders projectname
+```
 
-This will create a Rails 3.2 app in `projectname`. This script creates a new
-new git repository. It is not meant to be used against an existing repo.
+上記コマンドを実行すると `projectname` という名前の Rails 3.2 なアプリケーションが生成されます。
+
 
 Gemfile
 -------
