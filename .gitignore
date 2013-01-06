@@ -1,5 +1,6 @@
 *.swp
 .bundle
+.DS_Store
 .rake_tasks
 /bin/*
 !bin/suspenders
