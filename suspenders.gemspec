@@ -30,7 +30,4 @@ rush to build something amazing; don't use it if you like missing deadlines.
   s.add_dependency 'rails', '3.2.9'
   s.add_dependency 'bundler', '>= 1.1'
   s.add_dependency 'hub', '~> 1.10.2'
-
-  s.add_development_dependency 'cucumber', '~> 1.1.9'
-  s.add_development_dependency 'aruba', '~> 0.4.11'
 end
